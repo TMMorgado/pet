@@ -1,0 +1,105 @@
+   
+   /*corpo do site*/
+
+   body{
+    padding-top: 10px;
+    padding-bottom: 60px;
+    
+    
+}
+
+
+
+
+
+
+/* Estilos para a barra de navegação*/
+nav{
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+ }
+ nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+ }
+ nav ul li{
+    display: inline;
+    margin-right: 20px;
+
+ }
+ nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+ }
+ nav ul li a:hover{
+    color: #ff6347;
+ }
+
+
+ /* formulario cliente*/
+
+ .formulariocliente{
+   text-align: center;
+
+ }
+
+ .formularioemail{
+   max-width: 600px;
+   margin: 50px auto;
+   padding: 30px;
+   background-color: #fefefe;
+   border-radius: 12px;
+   box-shadow: 0 4px 12 px rgba(0,0,0,0.1);
+   font-family: 'Arial', sans-serif;
+ }
+ .formulariocliente label{
+   display: block;
+   font-weight: bold;
+   margin-bottom: 8px;
+   color:#333;
+
+ }
+ .formulariocliente input,
+.formulariocliente textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.formulariocliente input:focus,
+.formulariocliente textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+/*Editar as imagens dos patrocinadores*/

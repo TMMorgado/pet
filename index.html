@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ptpt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho aula</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+   
+
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+<body>
+
+    
+    <!--barra de navegação-->
+
+    <nav>
+        <ul>
+            <li><a href="#apresentacao">Home</a></li>
+            <li><a href="https://openai.com/index/chatgpt/" target="_blank">mais informações</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- abri uma main-->
+   
+    <main>
+
+    
+        <!-- Bloco de apresentação -->
+    <section id="apresentacao">
+        <div class="apresentacao">
+        
+    <h1 id="apresentacaocesae"> Apresentação</h1>
+    <p></p>
+    <h3>Quem sou eu</h3>
+    <p></p>
+    Sou o <b>Tiago</b>, tenho 30 anos e gosto de tecnologia, inscrevi-me na cesae para o curso de software developer para mudar de carreira.
+</div>
+    </section>
+
+        <div class="minhaimagem">
+        <img src="https://www.fundacaoaep.pt/media/cache/medium/uploads/PARCERIAS/logotipo_cesae_digital.png" alt="logotipo cesae" id="imagemlogocesae"> 
+    </div>
+    <p></p>
+
+
+  
+   
+<!--  section outros: redes sociais, hobbies, interesses -->
+
+   <section id= "outros"> 
+
+    <div class="redesSociais">
+    <h3>As minhas redes sociais</h3>
+    <p>Deixo a minha página de facebook, com mais informação, clica  <a href= "https://www.facebook.com/" target="blank">aqui</a> para acederes a ela </p>
+</div>
+
+    
+    <div class="hobbies">    
+    <h3>Os meus hobbies</h3>
+     <h5>O que eu gosto de fazer nos meus tempos livres são:</h5>
+    <ul>
+        <li> Viajar</li>
+        <li>Correr</li>
+        <li>Programar</li>
+
+        </ul> 
+    </p>
+</div>
+    
+
+        <div class="interesses">
+        <h3>Os meus interesses</h3>
+        <h5>Algumas coisas que me fascinam são:</h5>
+            <div class="tables">
+        <table>
+            
+                <tr>
+                <td> Gestão </td>
+                <td>Desporto</td>
+            </tr>
+            <tr>
+                <td>Tecnologia</td>
+                <td>Inovação</td>
+            </tr>
+
+         </table>
+    </div>
+    </div>
+    </section>
+
+        
+        <section id="formulario">
+        <div class="formulario">
+            Aqui abaixo cria a tua ficha com os teus interesses
+          <p></p>  
+
+        <form action="recolha de dados.php" method="POST">
+            <label for="nome"> Nome:</label>
+            <input type="text" id="nome" name="nome"> <pt></pt>
+
+            <label for="email" >E-mail: </label>
+            <input type="email" id="email" name="email"> <pt></pt>
+            <p></p>
+            <input type="radio" name="sexo" value="masculino" > Masculino 
+            <input type ="radio" name= "sexo" value ="feminino"> Feminino<pt></pt>
+            <p></p>
+            
+
+            <label for="mensagem" > Mensagem:</label>
+            <p></p>
+            <textarea id="mensagem" name=" mensagem" rows="4" cols="50"></textarea>
+
+            <p></p>
+            <input id= "submit" type="submit" value="Enviar" width= "500"> 
+        
+
+
+        </form>
+    </div>
+</section>
+    
+
+
+</main>
+</body>
+</html>

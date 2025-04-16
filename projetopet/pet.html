@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petport</title>
+
+    <!--link para usar o bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <!--link css-->
+    <link rel="stylesheet" href="styleteste.css">
+    
+
+</head>
+
+    <body>
+
+        <!--script bootstarp-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Petport</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vacinas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Passaporte
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Regras UE</a></li>
+                  <li><a class="dropdown-item" href="#">Regras fora da UE</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Criar passaporte</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquise aqui.." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--CONTAINER TEXTO PRINCIPAL-->
+      <div class="container">
+        <h1>Livrete/Passaporte digital do seu patudo</h1>
+        <p>Com a Petport, levar a saúde e os documentos do seu animal consigo nunca foi tão fácil. A nossa plataforma digital reúne toda a informação essencial do seu pet, vacinas tomadas e por tomar, dados de identificação, e muito mais, substituindo o tradicional livrete físico por uma versão moderna e acessível em qualquer lugar.
+        Vai viajar? Com a Petport, pode criar um passaporte digital com os dados exigidos para deslocações nacionais e internacionais, garantindo que o seu companheiro está sempre pronto para embarcar consigo.
+          
+          Simples, seguro e sempre à mão, Petport, o passaporte que o seu pet merece. </p>
+      </div>
+
+      <!-- cards-->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.worten.pt/i/70ec4190a598d400a4fd322daff131175539ed0d" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cães</h5>
+                  <p class="card-text">Com o nosso boletim digital e o passaporte pet, a saúde e os passeios do seu melhor amigo estão sempre em dia!</p>
+                  <a href="#" class="btn btn-primary">Saber mais</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://veterinario.pt/wp-content/uploads/2015/09/cat-pet-animal-domestic-gato800.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gatos</h5>
+                  <p class="card-text">Com o Boletim Digital e o Passaporte Pet, a saúde e as aventuras do seu gato estão sempre em dia!</p>
+                  <a href="#" class="btn btn-primary">Saber mais</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="outrosimg.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Outros</h5>
+                  <p class="card-text">Do coelho ao papagaio, tudo fica organizado: saúde atualizada no Boletim Digital e documentação pronta para viagens com o Passaporte Pet.</p>
+                  <a href="#" class="btn btn-primary">Saber mais</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--barra para formulário-->
+
+    <nav>
+      <ul>  
+          <li><a href="formulario.html" >Fala connosco</a></li>
+      </ul>
+  </nav>
+  
+  
+  <!--Criar imagem rodape bootstrap-->
+    
+  <section class="imagemrodape">
+
+
+    <div id="imagempatrocinadores" class="carousel slide carrosel-pequeno">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="upv.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="ordemveterinario.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="cmp.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+     
+
+
+</body>
+</html>
